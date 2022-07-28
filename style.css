@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#5c500b,#abc234);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+.container__king{
+    width: 140px;
+    /* border: 1px solid; */
+}
